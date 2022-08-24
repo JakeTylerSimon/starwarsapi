@@ -5,7 +5,7 @@ export default function Starships({ data }) {
 
   return (
     <>
-        <h1>People</h1>
+        <h1>Starships</h1>
         <Grid columns={3}>
             {data.map((starships, i) => {
                 return(
